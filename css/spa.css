@@ -118,7 +118,7 @@ body {
     align-items: center; */
 }
 
-#header .menu .nav>h1>img {
+#header .menu .nav>h1 img {
     width: 100%;
     margin-top: 5%;
 }
@@ -236,7 +236,7 @@ header .logo123 {
     height: 118px;
 }
 
-header .logo123>img {
+header .logo123 img {
     width: 50%;
     height: 50%;
 }
@@ -386,7 +386,7 @@ section {
     /* height: 99vh; */
     position: relative;
     margin-bottom: 150px;
-    z-index: -1 !important;
+    z-index: 0 !important;
 }
 
 .swiper {
@@ -535,53 +535,53 @@ section {
 }
 
 .product .swiper-slide:nth-child(1) {
-    background-image: url(/images/spa/pro1.jpg);
+    background-image: url(../images/spa/pro1.jpg);
     /* transform: scale(0.8); */
 }
 
 .product .swiper-slide:nth-child(2) {
-    background-image: url(/images/spa/pro2.jpg);
+    background-image: url(../images/spa/pro2.jpg);
 }
 
 .product .swiper-slide:nth-child(3) {
-    background-image: url(/images/spa/pro3.jpg);
+    background-image: url(../images/spa/pro3.jpg);
     /* background-position: center; */
     background-size: cover;
 
 }
 
 .product .swiper-slide:nth-child(4) {
-    background-image: url(/images/spa/pro4.png);
+    background-image: url(../images/spa/pro4.png);
     /* background-position: -300px -550px; */
     /* background-size: cover; */
     background-position: center -100px;
 }
 
 .product .swiper-slide:nth-child(5) {
-    background-image: url(/images/spa/pro5.jpg);
+    background-image: url(../images/spa/pro5.jpg);
 }
 
 .product .swiper-slide:nth-child(6) {
-    background-image: url(/images/spa/pro6.jpg);
+    background-image: url(../images/spa/pro6.jpg);
     background-position: center -700px;
 }
 
 .product .swiper-slide:nth-child(7) {
-    background-image: url(/images/spa/pro7.jpg);
+    background-image: url(../images/spa/pro7.jpg);
 }
 
 .product .swiper-slide:nth-child(8) {
-    background-image: url(/images/spa/pro8.jpg);
+    background-image: url(../images/spa/pro8.jpg);
     background-size: cover;
 }
 
 .product .swiper-slide:nth-child(9) {
-    background-image: url(/images/spa/pro9.jpg);
+    background-image: url(../images/spa/pro9.jpg);
     background-size: cover;
 }
 
 .product .swiper-slide:nth-child(10) {
-    background-image: url(/images/spa/pro10.jpg);
+    background-image: url(../images/spa/pro10.jpg);
     background-size: cover;
 }
 
@@ -805,35 +805,35 @@ section {
 }
 
 .guide2 .g2_left>div:nth-child(1) {
-    background-image: url(/images/spa/hy_pangyo.jpg);
+    background-image: url(../images/spa/hy_pangyo.jpg);
 }
 
 .guide2 .g2_left>div:nth-child(2) {
-    background-image: url(/images/spa/lotte_gwangju.jfif);
+    background-image: url(../images/spa/lotte_gwangju.jfif);
 }
 
 .guide2 .g2_right>div:nth-child(1) {
-    background-image: url(/images/spa/itaewon.jpg);
+    background-image: url(../images/spa/itaewon.jpg);
 }
 
 .guide2 .g2_right>div:nth-child(2) {
-    background-image: url(/images/spa/times_square.jpg);
+    background-image: url(../images/spa/times_square.jpg);
 }
 
 .guide2 .center_big_img>div:nth-child(1) {
-    background-image: url(/images/spa/hy_pangyo.jpg);
+    background-image: url(../images/spa/hy_pangyo.jpg);
 }
 
 .guide2 .center_big_img>div:nth-child(2) {
-    background-image: url(/images/spa/lotte_gwangju.jfif);
+    background-image: url(../images/spa/lotte_gwangju.jfif);
 }
 
 .guide2 .center_big_img>div:nth-child(3) {
-    background-image: url(/images/spa/itaewon.jpg);
+    background-image: url(../images/spa/itaewon.jpg);
 }
 
 .guide2 .center_big_img>div:nth-child(4) {
-    background-image: url(/images/spa/times_square.jpg);
+    background-image: url(../images/spa/times_square.jpg);
 }
 
 .guide2 .center_big_txt>div {
@@ -1340,6 +1340,9 @@ section {
         /* height: 40px; */
     }
 
+    #footer {
+        height: 20vh;
+    }
 }
 
 @media all and (max-width:393px) {
